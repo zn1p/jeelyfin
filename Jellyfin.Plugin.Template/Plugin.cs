@@ -23,6 +23,7 @@ public class Plugin : BasePlugin<PluginConfiguration>, IHasWebPages
         : base(applicationPaths, xmlSerializer)
     {
         Instance = this;
+        // test
     }
 
     /// <inheritdoc />
